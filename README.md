@@ -56,22 +56,16 @@ This project uses the Sentiment140 dataset, which contains 1.6 million tweets co
 ⚙️ **Installation**
 To run this project locally:
 
-Clone the repository:
+# Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-(Replace your-username and your-repo-name accordingly)
 
-Create a virtual environment (recommended):
+git clone (https://github.com/devansh-sharma15/Twitter-sentiment-analysis.git)
 
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-Install required libraries:
+# Install required libraries:
 
 pip install numpy pandas scikit-learn nltk kaggle
-Set up Kaggle API Key:
+
+# Set up Kaggle API Key:
 
 Go to your Kaggle Account
 
@@ -84,10 +78,10 @@ mkdir -p ~/.kaggle
 mv path/to/kaggle.json ~/.kaggle/
 chmod 600 ~/.kaggle/kaggle.json
 🚀 **Usage**
-Open the notebook:
+# Open the notebook:
 
 jupyter notebook "twetter_sentiment_analysis (2).ipynb"
-Run all the cells sequentially. The notebook will:
+# Run all the cells sequentially. The notebook will:
 
 Download and extract the dataset
 
